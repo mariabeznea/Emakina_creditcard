@@ -1,0 +1,28 @@
+label {
+	margin-top: 5px;
+}
+
+#credit_card {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#result {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.well {
+	background-color: #EBEBEB;
+}
+.row.no-gutter {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.row.no-gutter [class*='col-']:not(:first-child),
+.row.no-gutter [class*='col-']:not(:last-child) {
+  padding-right: 0;
+  padding-left: 0;
+}
+
